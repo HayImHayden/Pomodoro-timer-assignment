@@ -44,7 +44,7 @@ function Display({ TimerData, isTimerRunning, setTimerData }) {
           currentData.counter = 0;
           currentData.displayName = "Focusing";
           currentData.onFocus = !currentData.onFocus;
-          new Audio(`https://bigsoundbank.com/UPLOAD/mp3/11482.mp3`).play();
+          new Audio(`https://bigsoundbank.com/UPLOAD/mp3/1482.mp3`).play();
         }
 
         return { ...currentData, counter: currentData.counter + 1 };
